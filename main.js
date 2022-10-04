@@ -73,7 +73,41 @@
 // console.log(Object.keys(person));
 
 
-// #7
+// // #7
+// let person = {
+//     name:"Shahrom",
+//     age:17,
+//     adres:{
+//         city: "Dushanbe",
+//         district: "Sino",
+//         strit: "Asadulo Gulomov 28",
+//         kv: 20,
+//     }
+// }
+// console.log(Object.values(person));
+
+
+// // #8
+// let person = {
+//     name:"Shahrom",
+//     age:17,
+//     adres:{
+//         city: "Dushanbe",
+//         district: "Sino",
+//         strit: "Asadulo Gulomov 28",
+//         kv: 20,
+//     }
+// }
+// let {name ,age, adres} = person;
+// let {city} = adres;
+// console.log(name);
+// console.log(age);
+// console.log(adres);
+// console.log(city);
+
+
+
+// #9
 let person = {
     name:"Shahrom",
     age:17,
@@ -84,4 +118,9 @@ let person = {
         kv: 20,
     }
 }
-console.log(Object.values(person));
+let {name ,age, adres} = person;
+let person2 = {
+    ...person,
+    name: "Muhammad",
+}
+console.log(person2);
