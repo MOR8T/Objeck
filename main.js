@@ -124,7 +124,25 @@
 // }
 // console.log(person2);
 
-// #10
+// // #10
+// let person = {
+//     name:"Shahrom",
+//     age:17,
+//     adres:{
+//         city: "Dushanbe",
+//         district: "Sino",
+//         strit: "Asadulo Gulomov 28",
+//         kv: 20,
+//     },
+//     commit: function (){
+//         return `My name ${this.name}. I am ${this.age}. 
+//         I live in ${this.adres.city}`;
+//     }
+// }
+// console.log(person.commit());
+
+
+// #11
 let person = {
     name:"Shahrom",
     age:17,
@@ -135,8 +153,13 @@ let person = {
         kv: 20,
     },
     commit: function (){
-        return `My name ${this.name}. I am ${this.age}. 
-        I live in ${this.adres.city}`;
+        return `My name ${this.name}. I am ${this.age}`;
     }
 }
-console.log(person.commit());
+console.log(person.commit())
+let person2 = {
+    name: "Ali",
+    age: 18
+}
+let commit2 = person.commit.bind(person2);
+console.log(commit2());
