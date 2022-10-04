@@ -51,3 +51,12 @@
 ![Philadelphia's Magic Gardens. This place was so cool!](./img/js8.jpg "Philadelphia's Magic Gardens")
 
 ![Philadelphia's Magic Gardens. This place was so cool!](./img/js8.2.jpg "Philadelphia's Magic Gardens")
+
+# This in javascript
+#
+### The this keyword of a function behaves slightly differently in JavaScript than in other languages. It also has some differences between strict mode and non-strict mode.
+
+![Philadelphia's Magic Gardens. This place was so cool!](./img/js9.jpg "Philadelphia's Magic Gardens")
+
+![Philadelphia's Magic Gardens. This place was so cool!](./img/js9.2.jpg "Philadelphia's Magic Gardens")
+

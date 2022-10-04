@@ -124,3 +124,19 @@
 // }
 // console.log(person2);
 
+// #10
+let person = {
+    name:"Shahrom",
+    age:17,
+    adres:{
+        city: "Dushanbe",
+        district: "Sino",
+        strit: "Asadulo Gulomov 28",
+        kv: 20,
+    },
+    commit: function (){
+        return `My name ${this.name}. I am ${this.age}. 
+        I live in ${this.adres.city}`;
+    }
+}
+console.log(person.commit());
