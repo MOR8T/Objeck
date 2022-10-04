@@ -107,20 +107,20 @@
 
 
 
-// #9
-let person = {
-    name:"Shahrom",
-    age:17,
-    adres:{
-        city: "Dushanbe",
-        district: "Sino",
-        strit: "Asadulo Gulomov 28",
-        kv: 20,
-    }
-}
-let {name ,age, adres} = person;
-let person2 = {
-    ...person,
-    name: "Muhammad",
-}
-console.log(person2);
+// // #9
+// let person = {
+//     name:"Shahrom",
+//     age:17,
+//     adres:{
+//         city: "Dushanbe",
+//         district: "Sino",
+//         strit: "Asadulo Gulomov 28",
+//         kv: 20,
+//     }
+// }
+// let person2 = {
+//     ...person,
+//     name: "Muhammad",
+// }
+// console.log(person2);
+
