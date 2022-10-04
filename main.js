@@ -161,5 +161,5 @@ let person2 = {
     name: "Ali",
     age: 18
 }
-let commit2 = person.commit.bind(person2);
+let commit2 = person.commit.apply(null,person);
 console.log(commit2());
